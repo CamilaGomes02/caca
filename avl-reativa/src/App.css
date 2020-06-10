@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.file-upload{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submit{
+  height: 52px;
+  width: 100%;
+  margin-top: 18px;
+  background-color: #09d3ac;
+  border: 0px;
+  color: #FFF;
+  font-weight: 550;
+}
+
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 700px;
+  background-color: #09d3ac;
+  position: absolute;
+}
+
+.salvar{
+  background-color: #FFF;
+    width: 180px;
+    color: #09d3ac;
+}
+
+.criar-registro{
+  width: 80px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
